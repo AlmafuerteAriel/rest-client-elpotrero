@@ -1,0 +1,60 @@
+.background {
+  background: url("../../visuales/crearequipo.jpg");
+  color: white;
+  height: 100%;
+  max-width: 100%;
+
+  background-size: cover;
+  padding: 1rem;
+}
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 100px;
+  width: 600px;
+  text-align: center;
+}
+
+.card {
+  margin: 2rem auto;
+  background-color: #0000007c;
+  border-radius: 1rem;
+  height: 650px;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+}
+.img {
+  margin: 2rem 2rem;
+  border-radius: 1rem;
+  height: 200px;
+  width: 200px;
+}
+
+.btn {
+  color: black;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.txt {
+  margin: 0.5rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.btnC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

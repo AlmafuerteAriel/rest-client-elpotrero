@@ -1,0 +1,48 @@
+@import "../../scss/base/variables.scss";
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link {
+  cursor: pointer;
+}
+.navBg {
+  background-color: #000000;
+}
+.navegacion {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .navegacion {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navegacion .navLink {
+  padding: 0.8rem 2rem;
+  color: $white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.navegacion .navLink:hover {
+  background-color: #333333;
+}
+.navegacion .navLink:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .navegacion .navLink {
+    margin-bottom: 0;
+  }
+}
+.contenedor {
+  margin: 0 auto;
+  max-width: 1200px;
+}

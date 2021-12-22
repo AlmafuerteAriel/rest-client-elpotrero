@@ -1,0 +1,30 @@
+.container {
+  color: white;
+  height: 130vh;
+  max-width: 100%;
+  top: -3.3rem;
+  bottom: -3.5rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px);
+  gap: 12rem;
+  padding: 40px;
+  justify-content: center;
+}
+.containerGrid {
+  width: 80%;
+  height: 95%;
+  margin: 50px auto;
+  padding-bottom: 5rem;
+  border-radius: 1rem;
+}
+
+.titulo h1 {
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+}
